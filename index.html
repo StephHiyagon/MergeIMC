@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conocer el IMC</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/imc-ilus01.png" alt="imagen de la tabla de IMC">
+  </header>
+  <h1>Averigua tu IMC</h1>
+  <p>Más abajo, les ofrecemos el <b>cálculo del Índice de Masa Corporal</b> mediante nuestra calculadora de la salud.
+    Simplemente introduzca su altura y peso actual en sus casillas correspondientes y, a continuación, presione
+    el botón de la derecha. Nuestra página hará el resto, presentándole su valor de <b>IMC</b></p>
+<img src="images/Cómo-calcular-mi-IMC.jpg" alt="imagen de la fórmula del IMC"><br>
+  <section>
+    <div>
+      <label id="p" for="peso">Ingrese su peso (en Kg)</label>
+      <input id="peso" type="text">
+    </div><br>
+    <div>
+      <label id="h" for="altura">Ingrese su altura (en metros)</label>
+      <input id="altura" type="text">
+    </div><br>
+    <div>
+      <button id="enviar" onclick="verIMC();">Enviar</button>
+    </div>
+  </section>
+  <script src="app/imc.js"></script>
+</body>
+</html>

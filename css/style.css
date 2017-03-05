@@ -1,0 +1,28 @@
+body {
+  background: #e0e851;
+}
+
+* {
+  font-family: "Rancho";
+}
+
+h1 {
+  font-size: 38px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#p, #h {
+  font-size: 20px;
+}
+
+#enviar {
+  font-size: 28px;
+}
+
+img {
+display: block;
+margin: auto;
+}
