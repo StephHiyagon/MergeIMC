@@ -22,6 +22,9 @@ p {
   font-size: 28px;
 }
 
+#mostrar-resultado {
+  font-size: 36px
+}
 img {
 display: block;
 margin: auto;
